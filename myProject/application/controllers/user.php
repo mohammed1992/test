@@ -22,6 +22,15 @@ class User extends CI_Controller {
 		$this->UserInfo->add_user($username,$city);
 		redirect('User');
 	}
+	
+	public function delete()
+	{
+		//$username = $this->input->post('username');
+		//$city = $this->input->post('city');	
+		//$this->UserInfo->add_user($username,$city);
+		//redirect('User');
+	}
+	
 
 }
 
